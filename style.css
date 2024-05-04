@@ -44,3 +44,20 @@
     width: 300px;
     border-radius: 30px;
 }
+@media only screen and (max-width: 500px) {
+
+.input button{
+  margin-left: 3.3rem;
+}
+.input{
+    margin-top: 10px;
+}
+.cards img{
+    height: 150px;
+    width: 150px;
+}
+.cards h2{
+    font-size:large ;
+}
+}
+
