@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card-Filter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section class="container">
+        <h1 style="border-bottom: 4px solid purple; display: inline-block; font-family: sans-serif;">Menu</h1>
+        <!-- input for filter -->
+        <div class="input">
+            <button id="all">All</button>
+            <button id="breakfast">Breakfast</button>
+            <button id="lunch">Lunch</button>
+            <button id="shakes">Shakes</button>
+            <button id="dinner">Dinner</button>
+            <button id="dessert">Dessert</button>
+        </div>
+
+
+        <!-- cards -->
+        <div class="cards" style="display: flex; flex-wrap: wrap;">
+            <!-- 1 Breakfast -->
+            <div class="item breakfast">
+                <img src="https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTh8fGJyZWFrZmFzdHxlbnwwfHwwfHx8MA%3D%3D" alt="Omalte">
+                <h2>Omalte</h2>
+                <p class="description"></p>
+            </div>
+
+            <!-- 2 Breakfast-->
+            <div class="item breakfast">
+                <img src="https://images.unsplash.com/photo-1506084868230-bb9d95c24759?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjJ8fGJyZWFrZmFzdHxlbnwwfHwwfHx8MA%3D%3D" alt="pan cakes">
+                <h2>Pan Cakes</h2>
+                <p class="description"></p>
+            </div>
+
+            <!-- 3 lunch -->
+            <div class="item lunch">
+                <img src="https://images.unsplash.com/photo-1691171047462-66025ecd5efc?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTF8fGluZGlhbiUyMGx1bmNofGVufDB8fDB8fHww" alt="Biryani">
+                <h2>Biryani</h2>
+                <p class="description"></p>
+            </div>
+
+            <!-- 4 lunch-->
+            <div class="item lunch">
+                <img src="https://images.unsplash.com/photo-1683533738338-19b9a22c6405?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OTB8fGluZGlhbiUyMGx1bmNofGVufDB8fDB8fHww" alt="Paneer masala">
+                <h2>Paneer masala</h2>
+                <p class="description"></p>
+            </div>
+
+            <!-- 5 shakes-->
+            <div class="item shakes">
+                <img src="https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2hha2VzfGVufDB8fDB8fHww" alt="Oreo shake">
+                <h2>Oreo shake</h2>
+                <p class="description"></p>
+            </div>
+
+            <!-- 6 shakes-->
+            <div class="item shakes">
+                <img src="https://images.unsplash.com/photo-1623065422902-30a2d299bbe4?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHNoYWtlc3xlbnwwfHwwfHx8MA%3D%3D" alt="Mango shake">
+                <h2>Mango shake</h2>
+                <p class="description"></p>
+            </div>
+
+            <!-- 7 dinner-->
+            <div class="item dinner">
+                <img src="https://images.unsplash.com/photo-1568821113203-6b843ea689f2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTIyfHxkaW5uZXJ8ZW58MHx8MHx8fDA%3D" alt="prawns">
+                <h2>Prawns</h2>
+                <p class="description"></p>
+            </div>
+
+            <!-- 8 dinner-->
+            <div class="item dinner">
+                <img src="https://images.unsplash.com/photo-1610057099431-d73a1c9d2f2f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Y2hpY2tlbiUyMGRpc2hlc3xlbnwwfHwwfHx8MA%3D%3D" alt="chiken bbq">
+                <h2>Chiken BBQ</h2>
+                <p class="description"></p>
+            </div>
+
+            <!-- 9 sweet-->
+            <div class="item sweet">
+                <img src="https://images.unsplash.com/photo-1547414368-ac947d00b91d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjh8fGRlc3NlcnR8ZW58MHx8MHx8fDA%3D" alt="Cheese cake">
+                <h2>Cheese cake</h2>
+                <p class="description"></p>
+            </div>
+
+            <!-- 10 sweet-->
+            <div class="item sweet">
+                <img src="https://images.unsplash.com/photo-1571115177098-24ec42ed204d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDN8fGRlc3NlcnR8ZW58MHx8MHx8fDA%3D" alt="Pastry">
+                <h2>pastry</h2>
+                <p class="description"></p>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
